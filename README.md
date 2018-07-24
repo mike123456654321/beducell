@@ -5,6 +5,7 @@ Aplicando los temas del curso fullstack.
 
 Autores
 --------------------
-Miguel
-Erick 
-Uriel
++ Miguel
++ Erick 
++ Uriel
++ Carlos
