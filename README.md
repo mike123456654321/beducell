@@ -1,7 +1,7 @@
 # BEDUCell 
 
-Es una aplicacion web para la venta de celulares.
-Aplicando los temas del curso fullstack.
+> Es una aplicacion web para la venta de celulares.
+> Aplicando los temas del curso fullstack.
 
 Autores
 --------------------
