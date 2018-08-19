@@ -1,0 +1,17 @@
+$espaciodo_doble:30px;
+
+@mixin logo_caracteristicas
+{
+    font:
+        {
+         family: 'DatalegreyaDot';
+            size: 50px;
+            }
+        text-align: center;
+    margin-top: 10px;
+
+}
+
+
+
+

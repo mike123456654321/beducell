@@ -1,0 +1,18 @@
+@import "color";
+@import "img";
+@import "fuente";
+
+body
+{
+    @include img-background;
+    color:$color_white;
+
+}
+header{
+    margin-bottom: $espaciodo_doble;
+}
+header h2
+{
+    @include logo_caracteristicas;
+}
+
