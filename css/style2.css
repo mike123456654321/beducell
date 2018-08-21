@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Varela');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+@import url('https://fonts.googleapis.com/css?family=Saira');
+@import url('https://fonts.googleapis.com/css?family=Mitr');
+
+body {
+    background-image: url("http://files.all-free-download.com//downloadfiles/wallpapers/1280_800/apple_sky_blue_aurora_7191.jpg");
+    background-size: cover;
+    color: white;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+header h2 {
+    font-family: 'DatalegreyaDot';
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+main {
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+main a {
+    color: white;
+}
+
+header .carrucel {
+    margin-top: calc(110vh - 620px);
+}
+
+main .nav {
+    margin-bottom: 20px;
+
+}
+
+main .card {
+    color: black;
+}
+
+aside {
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: 50px;
+
+}
+
+.img2 h5 {
+    margin-bottom: 40px;
+    margin-top: 50px;
+    font-size: 40px;
+    color: black;
+
+
+}
+
+.img2 .card-text1 {
+    color: red;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.img2 .card-text2 {
+    color: white;
+    text-align: right;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.img1 h5 {
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30%;
+}
+
+header .texto1 {
+    font-size: 40px;
+    text-align: right;
+    margin-bottom: 30%;
+
+}
+
+header .texto2 {
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 20%;
+}
+
+header .texto3 {
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 20%;
+}
+
+header .texto4 {
+    font-size: 40px;
+    text-align: right;
+
+}
+
+.copyring {
+    text-align: right;
+}
+
+
+
+.colorRedes{
+	color: #fff;
+	font-weight: bold;
+}
+
+.iconFooter{
+	color: #fff;
+
+}
+
+.iconFooterContact{
+	margin-right: 20px;
+}
+
+.footerText{
+	background: #eceff1;
+}
+
+.footerTextCR{
+	background: #bdbfc1;
+}
+
+.footerTextCR a{
+	color: #4f4f4f;
+}
+.footerTextCR a:hover{
+	color: #4f4f4f;
+}
+
+.footerMision{
+	text-align: justify;
+}
+
+hr{
+	background: #00a78e;;
+}
+
+
+
+
+ header .contenedor{
+	background: #009688;
+	width: 100%;
+	position: relative;
+	display: flex;
+	padding: 10px;
+	flex-wrap: wrap;
+	position: fixed;
+	z-index: 1000;
+}
+
+header .menu{
+	width: 40%;
+	display: flex;
+	align-items: end;
+
+}
+
+ header .menu a {
+	font-size: 50px;
+	color: #fff;
+	font-weight: bold;
+	font-family: 'Bungee Inline', cursive;
+
+}
+
+header .menu :hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+header .nav ul{
+	width: 75%;
+	display: flex;
+	 align-items: end;
+	 justify-content: center;
+}
+
+header .nav ul li{
+	list-style: none;
+}
+
+header .nav li a{
+	text-decoration: none;
+	padding: .5em 1em;
+	font-size: 54px;
+	color: white;
+	font-family: 'Mitr', sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+
+}
+
+header .nav li a:hover{
+	color: #ffc107;
+	text-transform: uppercase ;
+	font-weight: bold;
+}
+
+header .buscador{
+	width: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+
+
