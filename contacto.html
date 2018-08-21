@@ -1,33 +1,420 @@
-<! DOCTYPE html>
-<html lang="en">
-  <head>
-    <link rel="stylesheet" href="conocenos.css">
-    <title>Conocenos</title>
-  </head>
-  <body>
-    
-    <h1 style="text-align:center;">Acude a nuestra sucursal</h1>
+<!DOCTYPE html> <!-- Declaracion-->
+<html lang="es">
+	<head>
+		<title>BEDUCell</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+		
+		<link rel="stylesheet" href="css/styleHome.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/stylesFontastic.css">
+		
 
-    <div style="text-align:center;width: 95%"><iframe width="105%" height="300" src="https://maps.google.com/maps?width=100%&height=600&hl=es&q=Av.%20%C3%81lvaro%20Obreg%C3%B3n%20110%2C%20Roma%20Norte%2C%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX%2C%20M%C3%A9xico+(Mi%20nombre%20de%20egocios)&ie=UTF8&t=&z=14&iwloc=B&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.mapsdirections.info/crear-un-mapa-de-google/">crear mapa Google Maps</a> by <a href="https://www.mapsdirections.info/">Mapa España</a></iframe></div><br />
+			
+	</head>
+	
+	<body>
+		<!--INICIA  MENU-->	
+		<div class="contenedor">
+			<div class="menu">
+				<img src="img/tel.png" width="65px" alt="">
+				<a href="#">BEDUCell</a>
+			</div>
+				<nav class="nav">
+					<ul>
+						<li><a id="home" href="#">Home</a></li>
+						<li><a href="#">Productos</a></li>
+						<li><a href="conocenos.html">Conocenos</a></li>
+						<li><a href="footer.html">Contacto</a></li>	
+					</ul>
+					
+				</nav>
+			<div class="buscador">
+				<img src="img/sesion.png" width="25px" alt="">	
+				<img src="img/busqueda.png" width="25px" alt="">	
+			</div>
+		</div>
+	<!--INICIA  CAROUSEL-->
+	<div id="carouselExampleIndicators" class="carousel slide carouselPrincipal " data-ride="carousel">
+			<ol class="carousel-indicators">
+			  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+				<img class="d-block w-100" src="img/g1.jpg" alt="First slide">
+					<div class="carousel-caption d-none d-md-block carouselText">
+						<div class="carousel-title carouselTitulo">
+							<h1>MEJOR SERVICO</h1>
+						</div>
+						<div class="carousel-text">
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime reprehenderit doloribus quos autem id dolorum?</p>
+						</div>
+					  </div>
+			  </div>
+			  <div class="carousel-item">
+				<img class="d-block w-100" src="img/g2.jpg">
+				<div class="carousel-caption d-none d-md-block carouselText">
+						<div class="carousel-title carouselTitulo">
+							<h1>SIEMPRE CONTIGO</h1>
+						</div>
+						<div class="carousel-text">
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime reprehenderit doloribus quos autem id dolorum?</p>
+						</div>
+					  </div>
+			  </div>
+			  <div class="carousel-item">
+				<img class="d-block w-100" src="img/g3.jpg">
+				<div class="carousel-caption d-none d-md-block carouselText">
+						<div class="carousel-title carouselTitulo">
+							<h1>TU MEJOR OPCIÓN</h1>
+						</div>
+						<div class="carousel-text">
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime reprehenderit doloribus quos autem id dolorum?</p>
+						</div>
+					  </div>
+			  </div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  <span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  <span class="sr-only">Next</span>
+			</a>
+		  </div>
+	<!--FINALIZA  CAROUSEL-->
+		
+	<!--INICIA  welcomePrincipal-->
+	<div class="seccionBienvenidos">
+		<div class="welcomePrincipal">
+				<h4>Bienvenidos</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Unde, a. Sunt earum corporis quod magni consequuntur doloribus impedit quibusdam, voluptatem possimus animi. </p>
+	
+	<!--FINALIZA welcomePrincipal-->
 
-    <div class="main-container">
-      <div class="contenedor1">
-      <h2 style="text-align:center">Misión</h2>
-      <p style="text-align: center">Ser el centro de contacto de preferencia de nuestros clientes, ofreciendo la mejor calidad en nuestros productos y servicio al cliente</p>
-    </div>
+		</div>
+	<!--INICIA  welcome-->
+		<div class="welcome">
+			
+				<div class="question">
+					<img src="img/questions.png" class="iconPregunta" width="100px" alt="icono de pregunta">
+					<h4>Dudas</h4>
+					<p class="textQ">Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit. Doloremque.</p>
+				</div>
+				<div class="question">
+					<img src="img/sobre.png" width="100px" class="iconPregunta" alt="icono de pregunta">
+					<h4>Mejores Precios</h4>
+					<p class="textQ">Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit. Doloremque, etc.</p>
+				</div>
+			
+				<div class="question">
+					<img src="img/user.png" alt="icono de pregunta" class="iconPregunta" width="100px">
+					<h4>Mejores marcas</h4>
+					<p class="textQ">Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit. Doloremque.</p>
+				</div>
+		</div>
+	</div>
+	<!--FINALIZA welcome-->
+		
+		
+	<!--INICIA  valores-->
+		<div class="valores">
+			
+			<div class="valorOpcion">
+					<h5>5 AÑOS DE EXPERIENCIA </h5>
+					<i class="hand icon-thumbs-o-up"></i>	
+					
+				<div class="valorParrafo">															
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum.</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum.</p>
+				</div>
+			</div>	
+			<div class="valorTexto">
+					<h5>EL CLIENTE ES PRIMERO</h5>
+					<i class="users icon-users"></i>	
+					
+				<div class="valorParrafo">															
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum.</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum.</p>
+				</div>
+			</div>	
+			
 
-      <div class="contenedor2">
-    <h2 style="text-align:center;">Visión</h2>
-    <p style="text-align: center">Contar con los equipos mas actualizados del mercado que cumplan con las espectativas de nuestros clientes</p>
-    </div>
+			<div class="valores2">
+				<!--<img src="img/g1.jpg" alt="" >-->
+			</div>
+			<div class="valores3">
+				<h3>Encuentra lo que necesitas</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur.<br>
+					Lorem ipsum dolor sit amet.
+				</p>
+			</div>
+			
+			<div class="valores4">
+				<h3>Siempre disponible</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur.<br>
+					Lorem ipsum dolor sit amet.
+				</p>
+			</div>
+			<div class="valores5">
+				<!--<img src="img/g2.jpg" alt="" width=300px;>-->
+			</div>
+			
+		</div>
+	<!--FINALIZA valores-->
 
-    <div class="contenedor3">
-    <h2 style="text-align:center;">Objetivo</h2>
-    <p style="text-align: center">Cumplir con las expectativas del cliente, generando una experiencia de satisfacción</p>
-    </div>
-  </div>
-  
-  </body>
+	<!-- CARD -->
+	
+	<div class="container-fluid">
+		<div class="team">
+				<p><span>|</span>	OUR TEAM	<span>|</span></p>
+		</div>
+		<div class="row  cardP">
+			<div class="col-3">
+					<div class="card card-cascade">
+							<!-- Card image -->
+						<div class="view view-cascade overlay cardImg">
+							 <img class="card-img-top" src="img/team1.jpg" alt="Card image cap">
+							<a>
+							<div class="mask rgba-white-slight"></div>
+							</a>
+						</div>
+						  
+						<!-- Card content -->
+						<div class="card-body card-body-cascade text-center">
+						  
+							<!-- Title -->
+							 <h4 class="card-title"><strong>Miguel</strong></h4>
+							  <!-- Subtitle -->
+							 <h6 class="font-weight-bold indigo-text py-2 cadText">Web developer</h6>
+							  <!-- Text -->
+							 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, ex, recusandae. Facere modi sunt, quod quibusdam.
+							 </p>
+						  
+							  <!-- Facebook -->
+							 <a type="button" class="btn-floating btn-small btn-fb"><i class="fb icon-facebook-circled"></i></a>
+							  <!-- Twitter -->
+							<a type="button" class="btn-floating btn-small btn-tw"><i class="tw icon-twitter-circled"></i></a>
+							  <!-- Google + -->
+							 <a type="button" class="btn-floating btn-small btn-dribbble"><i class="gh icon-github"></i></a>					  
+						</div>		  
+					 </div>				 
+			</div>	
+			<div class="col-3">
+					<div class="card card-cascade">
+							
+						<div class="view view-cascade overlay cardImg">
+							 <img class="card-img-top" src="img/team2.jpg" alt="Card image cap">
+							<a>
+							<div class="mask rgba-white-slight"></div>
+							</a>
+						</div>
+						  
+						<!-- Card content -->
+						<div class="card-body card-body-cascade text-center">
+						  
+							<!-- Title -->
+							 <h4 class="card-title"><strong>Uriel</strong></h4>
+							  <!-- Subtitle -->
+							 <h6 class="font-weight-bold indigo-text py-2 cadText" >Web developer</h6>
+							  <!-- Text -->
+							 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, ex, recusandae. Facere modi sunt, quod quibusdam.
+							 </p>
+						  
+							  <!-- Facebook -->
+							 <a type="button" class="btn-floating btn-small btn-fb"><i class="fb icon-facebook-circled"></i></a>
+							  <!-- Twitter -->
+							<a type="button" class="btn-floating btn-small btn-tw"><i class="tw icon-twitter-circled"></i></a>
+							  <!-- Google + -->
+							 <a type="button" class="btn-floating btn-small btn-dribbble"><i class="gh icon-github"></i></a>					  
+						</div>		  
+					 </div>				 
+			</div>	
+			<div class="col-3">
+					<div class="card card-cascade">
+							<!-- Card image -->
+						<div class="view view-cascade overlay cardImg">
+							 <img class="card-img-top" src="img/team3.jpg" alt="Card image cap">
+							<a>
+							<div class="mask rgba-white-slight"></div>
+							</a>
+						</div>
+						  
+						<!-- Card content -->
+						<div class="card-body card-body-cascade text-center">
+						  
+							<!-- Title -->
+							 <h4 class="card-title"><strong>Erick</strong></h4>
+							  <!-- Subtitle -->
+							 <h6 class="font-weight-bold indigo-text py-2 cadText" >Web developer</h6>
+							  <!-- Text -->
+							 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, ex, recusandae. Facere modi sunt, quod quibusdam.
+							 </p>
+						  
+							  <!-- Facebook -->
+							 <a type="button" class="btn-floating btn-small btn-fb "><i class="fb icon-facebook-circled"></i></a>
+							  <!-- Twitter -->
+							<a type="button" class="btn-floating btn-small btn-tw "><i class="tw icon-twitter-circled"></i></a>
+							  <!-- Google + -->
+							 <a type="button" class="btn-floating btn-small btn-dribbble "><i class="gh icon-github"></i></a>					  
+						</div>		  
+					 </div>				 
+			</div>	
+		</div>		
+	</div>
+
+	<!--EMPIEZA FOOTER -->
+	<!-- Footer -->
+<footer class="page-footer font-small blue-grey lighten-5 footerText">
+
+		<div style="background-color: #009688;">
+		  <div class="container">
+	
+			<!-- Grid row-->
+			<div class="row py-4 d-flex align-items-center">
+	
+			  <!-- Grid column -->
+			  <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+				<h6 class="mb-0 colorRedes">¡Contacta con nosotros en redes sociales!</h6>
+			  </div>
+			  <!-- Grid column -->
+	
+			  <!-- Grid column -->
+			  <div class="col-md-6 col-lg-7 text-center text-md-right ">
+	
+				<!-- Facebook -->
+				<a class="fb-ic">
+				  <i class="fa icon-facebook white-text mr-4 iconFooter"> </i>
+				</a>
+				<!-- Twitter -->
+				<a class="tw-ic">
+				  <i class="fa icon-twitter white-text mr-4 iconFooter"> </i>
+				</a>
+				<!-- Google +-->
+				<a class="gplus-ic">
+				  <i class="fa  white-text mr-4 icon-google-plus iconFooter"> </i>
+				</a>
+				<!--Linkedin -->
+				<a class="li-ic">
+				  <i class="fa icon-linkedin white-text mr-4 iconFooter"> </i>
+				</a>
+				<!--Instagram-->
+				<a class="ins-ic">
+				  <i class="fa icon-instagram white-text iconFooter"> </i>
+				</a>
+	
+			  </div>
+			  <!-- Grid column -->
+	
+			</div>
+			<!-- Grid row-->
+	
+		  </div>
+		</div>
+	
+		<!-- Footer Links -->
+		<div class="container-fluid text-center text-md-left mt-5  ">
+	
+		  <!-- Grid row -->
+		  <div class="row mt-3 dark-grey-text ">
+	
+			<!-- Grid column -->
+			<div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+	
+			  <!-- Content -->
+			  <h6 class="text-uppercase font-weight-bold">BeduCel</h6>
+			  <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto " style="width: 60px;">
+			  <p class="footerMision">BEDUCELL ofrece productos de calidad y servicios utilizando la mejor tecnología disponible y aun precio razonable.</p>
+	
+			</div>
+			<!-- Grid column -->
+	
+			<!-- Grid column -->
+			<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+	
+			  <!-- Links -->
+			  <h6 class="text-uppercase font-weight-bold">Marcas</h6>
+			  <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto " style="width: 60px;">
+			  <p>
+				<a class="dark-grey-text" href="#!">iPHONE</a>
+			  </p>
+			  <p>
+				<a class="dark-grey-text" href="#!">SAMSUNG</a>
+			  </p>
+			  <p>
+				<a class="dark-grey-text" href="#!">LG</a>
+			  </p>
+			  <p>
+				<a class="dark-grey-text" href="#!">ALCATEL</a>
+			  </p>
+	
+			</div>
+			<!-- Grid column -->
+	
+			<!-- Grid column -->
+			<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+	
+			  <!-- Links -->
+			  <h6 class="text-uppercase font-weight-bold">Tiendas</h6>
+			  <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+			  <p>
+				<a class="dark-grey-text" href="#!">Polanco</a>
+			  </p>
+			  <p>
+				<a class="dark-grey-text" href="#!">Roma</a>
+			  </p>
+			  <p>
+				<a class="dark-grey-text" href="#!">Perisur</a>
+			  </p>
+			  <p>
+				<a class="dark-grey-text" href="#!">Buenavista</a>
+			  </p>
+	
+			</div>
+			<!-- Grid column -->
+	
+			<!-- Grid column -->
+			<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+	
+			  <!-- Links -->
+			  <h6 class="text-uppercase font-weight-bold">Contacto</h6>
+			  <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+			  <p>
+				<i class="icon-home iconFooterContact"></i> Col. Roma, Mex</p>
+			  <p>
+				<i class="fa icon-mail iconFooterContact"></i> bedu@contacto.com</p>
+			  <p>
+				<i class="fa icon-phone iconFooterContact"></i> + 55 234 567 88</p>
+			  <p>
+				<i class="fa icon-print iconFooterContact"></i> + 55 234 567 89</p>
+	
+			</div>
+			<!-- Grid column -->
+	
+		  </div>
+		  <!-- Grid row -->
+	
+		</div>
+		<!-- Footer Links -->
+	
+		<!-- Copyright -->
+		<div class="footer-copyright text-center text-black-50 py-3 footerTextCR">© 2018 Copyright:
+		  <a class="dark-grey-text" href="https://mdbootstrap.com/bootstrap-tutorial/ footerTextCR"> BEDUCell.com</a>
+		</div>
+		<!-- Copyright -->
+	
+	  </footer>
+	  <!-- Footer -->
+	<!--TERMINA FOOTER -->
+
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	
+	
+	</body>
 </html>
-
-s

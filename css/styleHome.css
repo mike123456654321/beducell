@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css?family=Varela');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+@import url('https://fonts.googleapis.com/css?family=Saira');
+@import url('https://fonts.googleapis.com/css?family=Mitr');
+body{
+	margin: 0;
+}
+
+
+/*INICIA MENU*/
+
+.contenedor{
+	background: #009688;
+	width: 100%;
+	position: relative;
+	display: flex;
+	padding: 10px;
+	flex-wrap: wrap;
+	position: fixed;
+	z-index: 1000;
+}
+
+.menu{
+	width: 40%;
+	display: flex;
+	align-items: end;
+	
+}
+
+.menu a {
+	font-size: 50px;
+	color: #fff;
+	font-weight: bold;
+	font-family: 'Bungee Inline', cursive;
+
+}
+
+.menu :hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav ul{
+	width: 75%;
+	display: flex;
+	 align-items: end;
+	 justify-content: center;
+}
+
+.nav ul li{
+	list-style: none;
+}
+
+.nav li a{
+	text-decoration: none;
+	padding: .5em 1em;
+	font-size: 54px;
+	color: white;
+	font-family: 'Mitr', sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+
+}
+
+.nav li a:hover{
+	color: #ffc107;
+	text-transform: uppercase ;
+	font-weight: bold;
+}
+
+.buscador{
+	width: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+/*FINALIZA MENU*/
+
+/* -------- ----- INICIA CAROUSEL ------ ----- ----*/
+
+/* -------- ----- FINALIZA CAROUSEL ------ ----- ----*/
+.carousel-item img{
+	height: 600px;
+}
+.carouselPrincipal{
+	margin-bottom: 40px;
+}
+.carouselTitulo{
+	margin-bottom: 100px;
+
+}
+.carouselTitulo h1{
+	font-size: 50px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.carousel-text{
+	font-size: 20px;
+}
+
+.carouselText{
+	margin-bottom: 150px
+}
+/*INICIA TEXTO PRINCIPAL*/
+.titulo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+	color: white;
+
+}
+
+.bienvenido{
+	font-size: 70px;
+}
+
+.titulo p{
+	text-align: center;
+	padding-top: 3px;
+	font-size: 30px;
+	color: white;
+	padding-top: 30px;
+}
+
+.tituloPrincipal h3{
+	text-align: center;
+	font-size: 70px;
+	color: #48cfc1;	
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: white;
+	margin: 0;
+	padding-top: 125px;
+}
+/*FINALIZA TEXTO PRINCIPAL*/
+
+/*INICIA WELCOME PRINCIPAL*/
+.seccionBienvenidos{
+	margin: 75px;
+}
+.welcomePrincipal {
+	text-align: center;
+	height: 100px;
+	margin-bottom: 30px;
+	
+}
+
+.welcomePrincipal h4{
+	color: #009688;
+	font-size: 50px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.welcomePrincipal p{
+	color: #999;
+	font-size: 20px;
+	text-align: center;
+	line-height: 25px;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+/*FINALIZA WELCOME PRINCIPAL*/
+
+
+/*EMPIEZA WELCOME */
+
+.welcome{
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	height: 63vh;
+	margin: 0;
+}
+
+.welcome h4{
+	font-size: 28px;
+	letter-spacing: 2px;
+	margin: 1em 0;
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-transform: uppercase;
+	
+}
+.textQ{
+	color: #999;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.iconPregunta{
+	border-radius: 50%;
+	border: 5px solid #ededed;
+	padding: 15px;
+}
+.question:hover{
+	box-shadow: 1px 4px 20px 1px #adadad;
+	padding: .8em;
+}
+/*FINALIZA  WELCOM*/
+
+/*EMPIEZA valores */
+
+.valores{
+	display: grid;
+	
+	grid-template: repeat(2, 1fr) / repeat(7, 1fr);
+	height: 100vh;
+}
+
+h5{
+	display: inline-block;
+	position: absolute;
+	color: #fff;
+	font-size: 55px;
+	margin: 270px 165px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	letter-spacing: 4px;
+}
+
+.valorOpcion{
+	grid-column: 1/4;
+	grid-row: 1 / 3;
+}
+.valorTexto{
+	grid-column: 1/4;
+	grid-row: 2 / 3;
+}
+
+.valores2{
+	
+	background-image: url('../img/g1.jpg');
+	background-size: cover;
+	grid-column: 6/8;
+	grid-row: 2 / 2;
+	
+}
+
+.valores3{
+	text-align: center;
+	padding-top: 85px;
+	color: #fff;
+	background: #00a78e;
+	grid-column: 6/8;
+	grid-row: 1 / 2;
+	
+}
+.valores3 h3{
+	color: #ffc107;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+.valores4{
+	text-align: center;
+	padding-top: 25%;
+	color: #fff;
+	background: #00a78e;
+	grid-column: 4/6;
+	grid-row: 2 / 2;
+}
+.valores4 h3{
+	color: #ffc107;
+	font-weight: bold;
+	font-size: 22px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.valores5{
+	
+	background-image: url('../img/g2.jpg');
+	background-size: cover;
+	grid-column: 4/6;
+	grid-row: 1 / 2;
+}
+.hand{
+	font-size: 60px;
+	color: #00a78e;
+	margin-left: 30px;
+}
+.valorOpcion h5{
+	margin-top: 100px;
+	margin-left: 50px;
+	font-size: 30px;
+	color: #ffc107;
+	font-weight: bold;
+}
+.valorTexto h5{
+	margin-top: 100px;
+	margin-left: 60px;
+	font-size: 30px;
+	color: #ffc107;
+	font-weight: bold;
+}
+.valorParrafo{
+	margin-top:65px; 
+	text-align: center;
+}
+.users{
+	font-size: 50px;
+	color: #00a78e;
+	margin-left: 30px
+}
+/*FINALIZA  valores*/
+.card{
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+	word-wrap: break-word;
+
+}
+.cardP{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 35px;
+	margin-bottom: 22px;
+}
+
+.cardImg img{
+	height: 230px;;
+}
+
+.fb{
+	color: #4867aa;
+	font-size: 50px;
+	cursor: pointer;
+}
+.tw{
+	color: #2daae2;
+	font-size: 50px;
+	cursor: pointer;
+}
+.gh{
+	font-size: 50px;
+	cursor: pointer;
+}
+
+
+.cadText{
+	color: #3f6aca;
+}
+
+.team{
+	margin-top: 20px;
+	font-size: 40px;
+	text-align: center;
+	color: #ffc107;
+	font-weight: bold;
+}
+.team span{
+	font-weight: normal;
+}
+
+/* -------- ----- EMPIEZA FOOTER ------ ----- ----*/
+.colorRedes{
+	color: #fff;
+	font-weight: bold;
+}
+
+.iconFooter{
+	color: #fff;
+	
+}
+
+.iconFooterContact{
+	margin-right: 20px;
+}
+
+.footerText{
+	background: #eceff1;
+}
+
+.footerTextCR{
+	background: #bdbfc1;
+}
+
+.footerTextCR a{
+	color: #4f4f4f;
+}
+.footerTextCR a:hover{
+	color: #4f4f4f;
+}
+
+.footerMision{
+	text-align: justify;
+}
+
+hr{
+	background: #00a78e;;
+}
+/* -------- ----- TERMINA FOOTER ------ ----- ----*/
+
+
