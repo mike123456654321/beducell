@@ -33,7 +33,7 @@ main a {
 }
 
 header .carrucel {
-    margin-top: calc(110vh - 620px);
+	margin-top: calc(110vh - 570px);
 }
 
 main .nav {
@@ -114,39 +114,6 @@ header .texto4 {
 
 
 
-.colorRedes{
-	color: #fff;
-	font-weight: bold;
-}
-
-.iconFooter{
-	color: #fff;
-
-}
-
-.iconFooterContact{
-	margin-right: 20px;
-}
-
-.footerText{
-	background: #eceff1;
-}
-
-.footerTextCR{
-	background: #bdbfc1;
-}
-
-.footerTextCR a{
-	color: #4f4f4f;
-}
-.footerTextCR a:hover{
-	color: #4f4f4f;
-}
-
-.footerMision{
-	text-align: justify;
-}
-
 hr{
 	background: #00a78e;;
 }
@@ -223,3 +190,46 @@ header .buscador{
 
 
 
+/* -------- ----- EMPIEZA FOOTER ------ ----- ----*/
+.colorRedes{
+	color: #fff;
+	font-weight: bold;
+}
+
+.iconFooter{
+	color: #fff;
+	
+}
+
+.iconFooterContact{
+	margin-right: 20px;
+}
+
+.footerText{
+	background: #eceff1;
+}
+
+.footerTextCR{
+	background: #bdbfc1;
+}
+
+.footerTextCR a{
+	color: #4f4f4f;
+}
+.footerTextCR a:hover{
+	color: #4f4f4f;
+}
+
+.footerMision{
+	text-align: justify;
+}
+
+hr{
+	background: #00a78e;;
+}
+
+.textFooter{
+	color: #000000;
+}
+
+/* -------- ----- TERMINA FOOTER ------ ----- ----*/

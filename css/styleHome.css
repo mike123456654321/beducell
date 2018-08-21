@@ -388,8 +388,9 @@ h5{
 	color: #4f4f4f;
 }
 
-.footerMision{
+#footerMision{
 	text-align: justify;
+	font-weight: normal;
 }
 
 hr{
